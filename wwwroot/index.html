@@ -9,7 +9,9 @@
     <script>
       BotChat.App({
           directLine: { secret: '[paste-your-secret-id-here]' },           
-            resize: 'detect',            
+          resize: 'detect',
+          user: { id: 'id', name: 'user' },
+          bot: { id: 'bot' }
       }, document.getElementById("bot"));
     </script>
 </body>
